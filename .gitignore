@@ -1,0 +1,10 @@
+# 仅上传 dist(XgunnerGUI.exe) / gun / Receiver
+*
+!dist/
+!dist/XgunnerGUI.exe
+!gun/
+!gun/**
+!Receiver/
+!Receiver/**
+!README.md
+!.gitignore
