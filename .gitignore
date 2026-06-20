@@ -1,4 +1,4 @@
-# 仅上传 dist(XgunnerGUI.exe) / gun / Receiver / flash_nuke
+# 仅上传 dist(XgunnerGUI.exe) / gun / Receiver / XgunnerPro / flash_nuke
 *
 !dist/
 !dist/XgunnerGUI.exe
@@ -6,6 +6,8 @@
 !gun/**
 !Receiver/
 !Receiver/**
+!XgunnerPro/
+!XgunnerPro/**
 !flash_nuke/
 !flash_nuke/**
 !README.md
