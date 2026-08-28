@@ -66,6 +66,19 @@ Click **LED Install** to view the recommended IR LED placement on the gun.
 
 Click **Gamepad Test**, choose left or right stick mode, and watch live button/stick feedback (requires device support).
 
+### Rapid fire settings
+
+Click **Rapid Fire** to configure automatic rapid fire:
+
+- **Enable auto rapid fire:** master toggle for rapid fire (can also be toggled via gun combo `Pedal + Q + Space` / `Pedal + Q + Key 5`).
+- **Left-click speed:** automatic left-click rate (1–15 clicks per second).
+- **Clicks per trigger pull:** `0` (default) for continuous firing while holding the trigger; `1–99` for a fixed N-click burst per trigger pull.
+- **Auto right click:** automatically fire a single right click after left clicks complete, with configurable delay in ms.
+- **Motor vibration on right click:** trigger motor rumble when the automatic right click occurs.
+- **Loop mode:** repeat the firing cycle automatically after a configurable delay while holding the trigger.
+
+Click **Apply Settings** to send parameters to the gun (takes effect immediately in RAM; resets to defaults after power-cycling).
+
 ### Vibration settings
 
 Click **Vibration Settings** to adjust:
