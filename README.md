@@ -13,7 +13,7 @@ Windows configuration tool for XGUNNER light guns: button remapping, screen cali
 | `dist/` | Windows GUI app `XgunnerGUI.exe` (double-click to run; no Python required) |
 | `gun/` | Light gun firmware UF2 files (P1–P4, players 1–4) |
 | `Receiver/` | Receiver firmware UF2 files (P1–P4) |
-| `flash_nuke/` | `flash_nuke.uf2` — drag onto BOOT drive to erase flash before reflashing |
+| `flash_nuke/` | `flash_nuke.uf2` — drag onto BOOT drive to erase the **entire** flash chip before reflashing (auto-detects flash size via JEDEC ID, so EEPROM/LittleFS partitions at the end of >2MB chips are wiped too; takes a few seconds up to ~1 min, then the BOOT drive reappears). Source in `flash_nuke/src/` |
 
 **Firmware update:** Hold the device **Upgrade** button → plug in USB → release the button to enter BOOT drive → drag the matching UF2 from `gun/` or `Receiver/` onto the drive letter.
 
